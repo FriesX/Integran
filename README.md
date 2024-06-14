@@ -5,3 +5,37 @@ This project is an educational platform website called "Integran" made using HTM
 ## Authors
 
 - [@FriesX](https://www.github.com/FriesX)
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my_django
+```
+
+Run Virtual Environment
+
+```bash
+  my_venv/Scripts/activate
+```
+
+Go Inside The Project Folders
+
+```bash
+  cd our_project
+```
+
+Start the server
+
+```bash
+  py manage.py runserver
+```
+
