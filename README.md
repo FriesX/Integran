@@ -8,7 +8,7 @@ This project is an educational platform website called "Integran" made using HTM
 Clone the project
 
 ```bash
-  git clone [https://link-to-project](https://github.com/FriesX/Integran.git)
+  git clone https://github.com/FriesX/Integran.git
 ```
 
 Go to the project directory
