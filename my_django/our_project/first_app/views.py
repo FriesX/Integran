@@ -18,3 +18,4 @@ def team(request):
 
 def why(request):
   return render(request, 'integran/why.html')
+
