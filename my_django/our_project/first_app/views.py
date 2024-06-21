@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from . import forms
 # Create your views here.
 def index(request):
   return render(request,'integran/index.html')
@@ -19,3 +20,6 @@ def team(request):
 def why(request):
   return render(request, 'integran/why.html')
 
+def signin(request):
+  form = forms.FormName()
+  return render(request, 'integran/signin.html', {'form': form})
