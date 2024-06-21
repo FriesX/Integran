@@ -82,16 +82,17 @@
   </header>
 
   <div class="container">
-    <p>Sign In</p>
+    <p>Register here</p>
     <form method="POST">
       {% csrf_token %}
       <label for="username">Username:</label>
       <input type="text" id="username" name="username">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
       <label for="password">Password:</label>
       <input type="password" id="password" name="password">
-      <input type="submit" value="Sign In">
+      <input type="submit" value="Register">
     </form>
-    <p>Dont have an account? <a href="{% url 'register' %}">Sign Up</a></p>
   </div>
   <!-- footer section -->
   <section class="footer_section">

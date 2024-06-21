@@ -29,4 +29,5 @@ urlpatterns = [
     path('team/', views.team, name='team'),
     path('why/', views.why, name='why'),
     path('formpage/', views.signin, name='form_name'),
+    path('register/', views.register, name='register'),
 ]
